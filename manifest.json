@@ -1,14 +1,15 @@
 {
   "manifest_version": 2,
-  "name": "Daily Motivation - Motivational Quotes",
-  "version": "2.4.13",
-  "description": "Start every search with motivation. This extension presents you with a motivational quote every time you open a new tab.",
+  "name": "Thành ngữ Hán Việt mỗi ngày",
+  "version": "1.0.0",
+  "description": "Khởi đầu mỗi tab mới với một câu thành ngữ Hán Việt",
 
   "background": {
-    "scripts": ["background.js"],
-    "persistent": false
   },
-
+  "icons": {
+    "48": "images/icon_idiom_40.png",
+    "128": "images/icon_idiom_128.png"
+  },
   "chrome_url_overrides" : {
     "newtab": "index.html"
   }
