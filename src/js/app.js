@@ -107,10 +107,11 @@ function checkStorageForTooltipInformation() {
   
   if (hide) {
     let tooltipElement = document.getElementsByClassName('tooltip')[0];
-    let parent = tooltipElement.parentElement;
-
-    // Remove the element
-    parent.removeChild(tooltipElement);
+    if(tooltipElement) {
+      let parent = tooltipElement.parentElement;
+      // Remove the element
+      parent.removeChild(tooltipElement);
+    }
   }
 }
 
