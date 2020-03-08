@@ -2,3 +2,4 @@
 ChromeExtensionSource
 node_modules
 .vscode
+vendor/js/*
